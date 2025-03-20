@@ -1,0 +1,120 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+
+
+.py-5{
+  padding-bottom: 0;
+}
+
+.btn-primary {
+  --bs-btn-color: black;
+  --bs-btn-bg: #fafbfd;
+  --bs-btn-border-color: #fafbfd;
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-bg: #a7a7a7;
+  --bs-btn-hover-border-color: #a7a7a7;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: black;
+  --bs-btn-active-bg: #838282;
+  --bs-btn-active-border-color:#838282 ;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: black;
+  --bs-btn-disabled-bg: #838282;
+  --bs-btn-disabled-border-color: #838282;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: white;
+  --bs-btn-border-color: white;
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: white;
+  --bs-btn-focus-shadow-rgb: 108, 117, 125;
+  --bs-btn-active-color: black;
+  --bs-btn-active-bg: #6c757d;
+  --bs-btn-active-border-color: #6c757d;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #6c757d;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #6c757d;
+  --bs-gradient: none;
+}
+
+#testimonial{
+  background-color: #e1e2e275;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10rem;
+}
+
+.testimonial{
+  width: 80%;
+}
+
+.dog_pic img{
+  border-radius: 50%;
+  width: 100px;
+
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  margin-top: 100px;
+}
+
+.icons img{
+  width:140px ;
+  height: 50px;
+}
+
+
+
+.border-primary >.border-primary {
+  background-color: black !important;
+}
+
+.border-primary {
+  --bs-border-opacity: 1;
+  border-color: black !important;
+}
+
+
+button img{
+  color: #fafbfd !important;
+}
+
+
+
+
+
+
+
+
